@@ -1,6 +1,6 @@
 <span id="license"></span>
 <p>
-<?php echo link_to(__('Privacy policy'), '@privacy_policy', array('target' => '_blank')); ?> 
+<?php echo link_to(__('Privacy policy'), 'http://pne.jp/privacyPolicy.html', array('target' => '_blank')); ?> 
 <?php echo link_to(__('Terms of service'), '@user_agreement', array('target' => '_blank')); ?> 
 <?php $snsConfigSettings = sfConfig::get('openpne_sns_config'); ?>
 <?php if (opToolkit::isSecurePage()) : ?>
